@@ -1,0 +1,223 @@
+body {
+    background: #EBEBEB;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 0px;
+}
+#containerluxo{
+    width: 500px;
+    height: 50px;
+}
+#imgluxo{
+    padding-top: 10px;
+    padding-left: 20px;
+    float: left
+}
+#pluxo{
+    color: #1BB4E8;
+    font-size: 18px;
+    margin-top: 1px;
+    padding-top: 1px;
+    padding-bottom: 50px;
+    margin-left: 80px;
+}
+#alugueliates{
+    color: white;
+}
+#paluguel{
+    color: white;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-left: 80px;
+    margin-bottom: 30px;
+}
+#menu{
+    background-color: #21272B;
+    padding-top: 1px;
+    padding-bottom: 20px;
+}
+#menu ul{
+    text-align: right;
+    font-size: 13px;
+    margin: 0px;
+    background-color: #21272B;
+}
+#menutxt1{
+    padding-left: 30px;
+}
+#menutxt2{
+    padding-left: 30px;
+}
+#menutxt3{
+    padding-left: 30px;
+}
+#menutxt4{
+    padding-left: 30px;
+}
+
+#menu ul li {
+    display: inline;
+    color: white;
+    margin-right: 30px;
+
+}
+a:link {
+  text-decoration: none;
+}
+a:visited{
+    color: white
+}
+a:hover{
+    color: #f00;
+    font-size: 25px;
+}
+#imagemprincipal{
+    width: 100%;
+}
+#texto1 {
+    color: white;
+    background: rgba(26, 50, 67, 0.9);
+    font-size: 25px;
+    position: absolute;
+    margin-top: -340px;
+    margin-left: 620px;
+    padding-left: 30px;
+    margin-right: 155px;
+    padding-right: 55px;
+}
+#imgprincipalbarco1{
+    background: rgba(26, 50, 67, 0.9);
+    position: absolute;
+    margin-top: -230px;
+    padding-top: 10px;
+    margin-left: 620px;
+    padding-left: 20px;
+    padding-right:4px;
+    padding-bottom: 39px;
+    float: left
+}
+#texto2{
+    color: white;
+    background: rgba(26, 50, 67, 0.9);
+    font-size: 20px;
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 685px;
+    padding-left: 10px;
+    margin-right: 140px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+#numerotel{
+    color: #C6B07F;
+}
+#destinos{
+    width: 550px;
+    height: 500px;
+    float:left;
+}
+#nossafrota{
+    width: 550px;
+    height: 500px;
+    float: right;
+}
+#imagemdestino{
+    float:left
+}
+#imagemnossafrota{
+    float:left;
+}
+#destinos h1{
+    font-family: "Liberation Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 22px;
+    background: #1BB4E8;
+    color: white;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+#destinos h2{
+    font-family: "Liberation Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    margin-left: 40px;
+}
+#destinos p{
+    font-family: "Liberation Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 40px;
+}
+#nossafrota h1{
+    font-family: "Liberation Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 22px;
+    background: #C6B07F;
+    color: white;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#nossafrota h2{
+    font-family: "Liberation Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+}
+#nossafrota p{
+    font-family: "Liberation Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+#destinos img {
+    margin-left: 43px;
+    padding-top: 12px;
+    margin-right: 8px;
+}
+#nossafrota img{
+    margin-left: 10px;
+    padding-top: 15px;
+    margin-right: 20px;
+}
+#barcodestino img{
+    margin-left: 40px;
+    border-radius: 20px;
+
+}
+#barconossafrota1 img{
+    margin-left: 0px;
+    border-radius: 20px;
+}
+#barconossafrota2 img{
+    margin-left: 0px;
+    border-radius: 20px;
+
+}
+footer{
+    background-color: #D8D8D8;
+    margin-top: 580px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+footer p {
+    font-family: "Liberation Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 12px;
+}
+footer a{
+    color: black;
+}
+footer a:visited{
+    color: #2E9AFE;
+}
+footer a:hover{
+    color: #f00;
+    font-size: 25px;
