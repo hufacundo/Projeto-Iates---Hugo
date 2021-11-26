@@ -1,0 +1,156 @@
+body{
+   background: #EBEBEB; 
+   font-family: Arial, Helvetica, sans-serif;
+   display: grid;
+   grid-template-columns: 100%;
+   grid-template-rows: 100px 500px auto auto;
+   grid-template-areas: 
+   "header"
+   "images"
+   "articles"
+   "footer";
+}
+
+header{
+    grid-area: header;
+    background: #21272B;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 50px 250px auto;
+    grid-template-rows: 30px 70px;
+    grid-template-areas: 
+    "logo title blank"
+    "logo subtitle nav-menu"; 
+}
+
+header ul li{
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+
+.grid-header-img{
+    grid-area: logo;
+    height: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.grid-header-h1{
+    grid-area: title;
+}
+
+.grid-header-h2{
+    grid-area: subtitle;
+}
+
+.grid-header-ul{
+    grid-area: nav-menu;
+}
+
+h1{
+    color: #1BB4E8;
+}
+
+.subtitulo{
+    color:  #FFFFFF
+}
+
+.direita{
+    list-style-type:none;  
+    margin: 0;
+    padding: 0; 
+}
+
+.direita li{
+    display: inline;
+}
+
+.images{
+    grid-area: images;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+
+}
+.images .principal{
+    grid-column-start: 1 ;
+    grid-row-end: 2;
+    width: 100vw;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.articles{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-area: articles;
+}
+.destynes{
+    margin: 20px; 
+    padding: 20px;
+}
+
+.destynes .title{
+    background: #1BB4E8;
+    padding-left: 5px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 40px auto;
+}
+
+.destynes-image{
+    width: 100%;
+}
+
+.our-fleet{
+    margin: 20px; 
+    padding: 20px;
+}
+
+.our-fleet .title{
+    background-color: #C6B07F;
+    padding-left: 5px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 40px auto;
+}
+
+.ships{
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: 50% auto;
+    gap: 10px;
+}
+
+.ships img{
+    width: 100%;
+}
+
+.nav-menu a:visited{
+    color: #EBEBEB;
+}
+
+.nav-menu a:hover{
+    color: #1BB4E8;
+}
+
+.articles a, a:hover, a:visited{
+    color: #21272B;
+    text-decoration: none;
+}
+
+.voce{
+    color: #EBEBEB;
+    background: #21272B;
+    opacity: 90%;
+    width: 410px;
+    height: 170px;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    padding: 20px;
+}
+
+footer{
+    grid-area: footer;
+}
